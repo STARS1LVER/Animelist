@@ -1,0 +1,17 @@
+
+
+<mat-card class="card-p">
+    <mat-card-header class="card-h">
+      <h5 class="text"> {{animesReceived.title}}  </h5>
+    </mat-card-header>
+    <img mat-card-image [src]="animesReceived.images.jpg.image_url"  alt="" class="image">
+    <mat-card-content class="card-h">
+    </mat-card-content>
+    <mat-card-actions class="card-h flex justify-content-center">
+      <div class="flex flex-column align-items-center justify-content-center">
+        <span class="font-bold mb-2"> {{animesReceived.source}} </span>
+        <button  mat-raised-button color="primary" [routerLink]="['/anime',animesReceived.mal_id]" > <i class="fa-solid fa-circle-info"></i> Mas informacíon...</button>
+      </div>
+    </mat-card-actions>
+
+</mat-card>

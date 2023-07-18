@@ -1,0 +1,22 @@
+
+
+.con-card{
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:flex-start
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Crea 5 columnas de igual tamaño */
+ /* Espacio entre las tarjetas */
+}
+
+
+.card-pp{
+  margin-top: 20px;
+}
